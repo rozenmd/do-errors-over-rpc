@@ -1,0 +1,16 @@
+{
+  "name": "do-errors-over-rpc",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240821.1",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5",
+    "wrangler": "3.72.3"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "vitest"
+  }
+}
