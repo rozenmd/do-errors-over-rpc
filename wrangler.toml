@@ -1,3 +1,11 @@
 name = "do-errors-over-rpc"
 main = "src/index.ts"
 compatibility_date = "2024-08-29"
+
+[[durable_objects.bindings]]
+name = "MY_DURABLE_OBJECT"
+class_name = "MyDurableObject"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["MyDurableObject"]
